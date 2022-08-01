@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.dhvc.ui_fragment.Home_Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_home_">
+
+
+        <action
+            android:id="@+id/home"
+           />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/chatfragment"
+        android:name="com.dhvc.ui_fragment.chat_Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_chat_">
+
+
+        <action
+            android:id="@+id/chat"
+          />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/mindfragment"
+        android:name="com.dhvc.ui_fragment.Mine_Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_mine_">
+
+
+        <action
+            android:id="@+id/mind"
+           />
+    </fragment>
+
+
+
+
+
+
+
+</navigation>

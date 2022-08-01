@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/dhvc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/cardlayout.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/fadeout.xml" value="0.17708333333333334" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/home.xml" value="0.17552083333333332" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.11388888888888889" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.11388888888888889" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/ic_outline_star_border_24.xml" value="0.10104166666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/my.xml" value="0.17552083333333332" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/return_.xml" value="0.10104166666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/sms.xml" value="0.17135416666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/vertical_scrollbar.xml" value="0.18697916666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/vertical_scrollbar_bg.xml" value="0.18697916666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/drawable/xua.xml" value="0.26328125" />
+        <entry key="..\:/dhvc/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_began_main.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_details_main.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_login_main.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_qrcode_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/activity_scan_main.xml" value="0.16576086956521738" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/banner_.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/code_scanning_scanner.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/common_toolbar.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/content_login_main.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_chat_.xml" value="0.14666666666666667" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_home_.xml" value="0.16666666666666666" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_mine_.xml" value="0.16666666666666666" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_recommend_.xml" value="0.12" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_scan__blank.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/fragment_subscribefor__blank.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/item_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/layout_refresh_header.xml" value="0.3008298755186722" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/layout_scan.xml" value="0.16666666666666666" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/login_activity.xml" value="0.22" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/pager_navigator_layout.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/recipe_item.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/simple_pager_title_layout.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/staggere_list.xml" value="0.22" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/tab_item.xml" value="0.15520833333333334" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/text_layout.xml" value="0.13333333333333333" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/title.xml" value="0.22" />
+        <entry key="..\:/dhvc/app/src/main/res/layout/title_recyclerview.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/menu/action_refresh.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/menu/details_menu.xml" value="0.1" />
+        <entry key="..\:/dhvc/app/src/main/res/menu/nav_.xml" value="0.10925925925925926" />
+        <entry key="..\:/dhvc/app/src/main/res/menu/options.xml" value="0.22" />
+        <entry key="..\:/dhvc/associated/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

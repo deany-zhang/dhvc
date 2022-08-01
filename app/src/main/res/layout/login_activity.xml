@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="#CAC6C6"
+    android:layout_height="match_parent"
+    tools:context="com.dhvc.ui_activity.ui.Login_MainActivity">
+
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="登录"
+        android:textSize="20dp"
+        android:id="@+id/tv_login"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+<ImageView
+
+    android:layout_width="100dp"
+    android:layout_height="90dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:id="@+id/image_log"
+    app:layout_constraintRight_toRightOf="parent"
+   app:layout_constraintTop_toBottomOf="@id/tv_login"
+    android:src="@drawable/log"
+    android:layout_marginTop="30dp"
+    />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+       app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        android:text="Alyson@alyson.alyson"
+        app:layout_constraintTop_toBottomOf="@id/image_log"
+        android:layout_marginTop="20dp"
+        android:id="@+id/username"
+        android:hint="Please enter email address"
+        android:background="@drawable/cardlayout"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+ <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="alyson"
+       app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        android:layout_marginTop="20dp"
+        android:hint="Please enter your password"
+        android:background="@drawable/cardlayout"
+         android:password="true"
+         android:id="@+id/password"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/image_yj"
+        app:layout_constraintTop_toTopOf="@id/password"
+        app:layout_constraintBottom_toBottomOf="@id/password"
+        android:layout_marginRight="110dp"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/edit_code"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        android:layout_marginTop="20dp"
+        android:hint="Verification code"
+        android:textSize="12dp"
+        android:background="@drawable/cardlayout"
+        app:layout_constraintLeft_toLeftOf="@id/username"/>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:id="@+id/image_authcode"
+        app:layout_constraintBottom_toBottomOf="@id/edit_code"
+        app:layout_constraintTop_toTopOf="@id/edit_code"
+        app:layout_constraintLeft_toRightOf="@id/edit_code"
+        android:layout_marginLeft="20dp"/>
+
+<ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/image_refresh"
+        app:layout_constraintTop_toTopOf="@id/edit_code"
+        app:layout_constraintLeft_toRightOf="@id/image_authcode"
+        app:layout_constraintBottom_toBottomOf="@id/image_authcode"
+         android:src="@drawable/sms"
+        android:layout_marginLeft="5dp"/>
+
+
+    <Button
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:backgroundTint="#4DFAE6"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/image_refresh"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/bnt_login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        app:layout_constraintTop_toBottomOf="@id/bnt_login"
+        app:layout_constraintLeft_toLeftOf="@id/bnt_login"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码？"
+        android:id="@+id/t1"
+        app:layout_constraintTop_toBottomOf="@id/bnt_login"
+        app:layout_constraintRight_toRightOf="@id/bnt_login"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvqt"
+        app:layout_constraintTop_toBottomOf="@id/t1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="————— 使用其他方式登录 —————"/>
+
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/tvqt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:src="@drawable/dlqq"
+        />
+
+
+     <ImageView
+         android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/tvqt"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/dlweixin"/>
+
+    <RelativeLayout
+        android:id="@+id/loader_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
